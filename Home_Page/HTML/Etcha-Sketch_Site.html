@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin Master Corp.'s Etch-A-Sketch</title>
+    <link rel="stylesheet" href="/Home_Page/CSS/Style.css">
+    <script src="/Home_Page/Javascript/Backend.js"></script>
+    <link rel="icon" type="image/x-icon" href="/Global_Assets/Images/favicon.use.png">
+</head>
+<body>
+    <special-header></special-header>
+
+    <div class="container3">
+        <div class="hometext">
+            <h1>One Of The Most Popular Toys On the Planet
+            , Over 100 million Sales World Wide
+            </h1>
+            <p>For over half a century, kids all over the planet have been playing with 
+                Etch-A-Sketches and even today they continue to do so. These toys have 
+                been sought after by toys for so long and the original can still be bought 
+                today along with many other version like pocket-sized and christmas-themed ones.
+            </p>
+        </div>
+        <img src="/Home_Page/Images/Taj_Mahal_drawing_on_an_Etch-A-Sketch.jpg" alt="Etch-A-Sketch">
+        <div class="hometext">
+            <h1>Such as These:</h1>
+        </div>
+    </div>
+    <!-- The grid: four columns -->
+    <div class="row">
+        <div class="column">
+                <img src="/Home_Page/Images/gallery1.jpg" alt="gallery1">
+                <h1>The Classic</h1>
+                <p>Unchanged for 63 years, the <br>timeless design is still used <br>today and still beloved</p>
+        </div>
+        <div class="column">
+                <img src="/Home_Page/Images/gallery2.jpg" alt="gallery2">
+                <h1>The Mini <br>Etch-A-Sketch</h1>
+                <p>A smaller version of the <br>original design, while keeping <br>the same look, only miniaturized</p>
+        </div>
+        <div class="column">
+                <img src="/Home_Page/Images/gallery3.jpg" alt="gallery3">
+                <h1>The Pocket-Edition</h1>
+                <p>A pocket-sized version for easier play <br>while on the go and better for younger <br>ages</p>
+
+        </div>
+        <div class="column">
+                <img src="/Home_Page/Images/gallery4.jpg" alt="gallery4">
+                <h1>The Festive Elf <br>Version</h1>
+                <p>A festive christmas-themed Etch<br>-A-Sketch that's based off of <br>the movie "Elf"</p>
+        </div>
+    </div>
+    <div class="footertext"><h1>Check Out the Product Page to See More</h1></div>
+    <div class="container4">
+        <h1><button class="button" onclick="document.location='/Product_Page/HTML/product_etch_a_sketch.html'">Product Page</button>
+            <br>Or<br>
+                <button onclick="document.getElementById('id01').style.display='block'">Sign Up to Our Newswire</button>
+        </h1>
+    </div>
+    <special-footer></special-footer>
+    <!-- Button to open the modal -->
+
+
+<!-- The Modal (contains the Sign Up form) -->
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">X</span>
+        <form class="modal-content" action="/action_page.php">
+        <div class="container5">
+            <h1>Sign Up To Spin Master Newswire</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+    
+
+            <p>By clicking Sign Up you agree to receive updates, exclusive sales and notifications of new product releases, also agreeing to the <a href="#">Terms Of Service</a>.</p>
+
+            <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signup">Sign Up</button>
+            </div>
+        </div>
+        </form>
+    </div>
+    <script src="/Global_Assets/Header_&_Footer/globalHeader&Footer.js"></script>
+</body>
+    
+</html>

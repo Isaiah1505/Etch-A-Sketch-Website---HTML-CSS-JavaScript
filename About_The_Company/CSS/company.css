@@ -1,0 +1,72 @@
+.top{
+    background-image: url("../Images/banner2.jpeg") , url("../Images/Spin_Master_logo.png");
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    opacity: 0.8;
+}
+
+.top>h1{
+    font-size: 300%;
+    color: rgb(255, 238, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15%;
+    border-bottom: 1.5px solid rgb(253, 240, 49);
+
+}
+
+.mainbody{
+    color: rgb(253, 240, 49);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(255, 238, 0);
+    padding-bottom: 10%;
+
+
+}
+
+.mainbody>h2{
+    font-size: 250%;
+    border-bottom: 2px dotted rgb(253, 240, 49);
+    padding-bottom: 5px;
+}
+
+.mainbody2{
+    color: rgb(253, 240, 49);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(255, 238, 0);
+
+}
+
+.mainbody2>h2{
+    font-size: 175%;
+    border-bottom: 1px dotted rgb(255, 238, 0);
+    padding-bottom: 7px;
+}
+
+
+
+.blue{
+    color: rgb(0, 165, 177);
+}
+
+section{
+    float:left;
+}
+
+
+
+aside>img{
+    height: auto;
+    width: 30%;
+    border: 4px double rgb(252, 243, 124);
+
+}
+
+footer{
+    text-align: left;
+    color: rgb(253, 240, 49);
+    border-top: 0.5px solid rgb(253, 240, 49);
+    bottom: 95%;
+}

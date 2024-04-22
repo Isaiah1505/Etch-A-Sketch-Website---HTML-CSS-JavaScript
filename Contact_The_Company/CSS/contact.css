@@ -1,0 +1,72 @@
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 197, 39);
+}
+
+section>h2{
+    padding-left: 30px;
+    font-size: 225%;
+    border: 2px dotted rgb(255, 197, 39);
+}
+
+section>p{
+    padding-left: 30px;
+
+}
+
+.contactus{
+    padding: 17%;
+    background-image: url("../Images/contact-us-.jpg"), url("../Images/sm-brand-logo.avif");
+    background-repeat: no-repeat;
+    background-blend-mode: screen ;
+    background-color: rgb(25, 67, 131);
+
+}
+
+a:link, a:visited {
+    background-color:rgb(247, 241, 129);
+    color: rgb(252, 69, 69);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(174, 177, 21);
+  }
+
+.rows{
+    margin: 6px;
+}
+
+.rows,
+.rows > .columns {
+    padding: 8px;
+    margin: 10px;
+}
+
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.columns{
+    float: left;
+    color: rgb(243, 240, 36);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid rgb(243, 240, 36);
+}
+
+.columns>h2{
+    padding-bottom: 8px;
+}
+
+.columns>p{
+    padding-bottom: 5px;
+}
+
+footer{
+    border-top: 1px solid rgb(255, 197, 39);
+}
